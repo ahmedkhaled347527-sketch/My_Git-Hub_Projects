@@ -121,3 +121,6 @@ img{
 .info a:active{
     color: hsl(224, 23%, 55%);
 }
+.parent:hover{
+    box-shadow: 0 0 10px 10px hsl(224, 23%, 55%);
+}
