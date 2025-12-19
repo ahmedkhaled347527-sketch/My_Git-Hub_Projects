@@ -135,5 +135,20 @@ img{
         box-shadow: 0 0 10px 10px hsl(224, 72%, 35%);
     }
 }
+@media screen and (max-width: 600px) {
+    @keyframes anime {
+        transform: rotate(90deg);
+        0%{
+            box-shadow: 0 0 10px 10px hsl(224, 72%, 35%);
+        }
+        50%{
+            box-shadow: 0 0 10px 10px hsl(224, 41%, 54%);
+        }
+        100%{
+            box-shadow: 0 0 10px 10px hsl(224, 72%, 35%);
+        }
+    }
+    }
+
 
 
